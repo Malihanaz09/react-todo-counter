@@ -1,0 +1,99 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+/* .App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.counter, .todo{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border-bottom-left-radius: 70px;
+  border-top-right-radius: 70px;
+  box-shadow: 5px 5px 10px blue;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+@media (max-width:500px){
+  .counter, .todo{
+    width:100%;
+    background-color: black;
+    margin:-10px;
+    padding: 2px;
+  }
+  .heading{
+    font-size: large;
+  }
+  .btn{
+    margin:0px 0px;
+    padding:0px;
+    font-size: 10px;
+    /* width: 50px; */
+  }
+  .input{
+    width: 100%;
+    height: 10px;
+    /* background-color: black; */
+  }
+}
+
+.heading{
+  color: blue;
+  font-family: 'franklin';
+}
+.heading:hover{
+  text-shadow: 0px 0px 10px blue;
+}
+.btn{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: blue;
+  color: white;
+}
+.btn:hover , .input:hover{
+  box-shadow: 5px 5px 10px black;
+}
+.input{
+  height: 30px;
+  width: 50%;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: large;
+}
